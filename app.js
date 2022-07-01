@@ -60,10 +60,16 @@ const sum = (a, b, c) => {
     let sum2 = a + c
 
     return sum2;
-    // return sum2, sum1; //2 ta dile first jeta declare kora hoise shetai count hbe jemon sum1
+    // return sum2, sum1; 
+    //2 ta dile first jeta declare kora hoise shetai count hbe jemon sum1
 }
 const result = sum(10, 21, 34)
 console.log(result)
+//Arrow function with three parameters
+//ekadhik line hole block akare {} ene likhbo
+//boro func hole evabe likhbo and return anbo
+// r chooto func hole return ana lagbe na and ek line ei hbe
+
 
 
 
