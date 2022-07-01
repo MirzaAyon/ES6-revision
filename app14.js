@@ -16,3 +16,11 @@ const newNumbers = {
 console.log(numbers.third);
 console.log(numbers.second);
 console.log(newNumbers.third.first);
+
+const numbers2 = {
+    first: 30,
+    second: 20
+}
+
+console.log(numbers2?.third?.first); //etai optional chaining 
+//optional chaining na korle bishal error dito
