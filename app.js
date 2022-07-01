@@ -30,3 +30,18 @@ console.log(id);
 // 4.templete litaral
 // eta aro name templete string, string templete, backticks syntex ei total 4 ta name etar
 
+
+//5.Arrow function
+
+function sum(a, b) {
+    let result = a + b
+    return result
+}
+const result = sum(10, 15)
+console.log(result)
+//this is a function without arrow
+
+const sum = (a, b) => a + b;
+const result1 = sum(12, 15)
+console.log(result1)
+
